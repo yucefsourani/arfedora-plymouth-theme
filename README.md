@@ -18,8 +18,8 @@ tested only on Fedora 23 64bit
 * clone repo
   * cd ~/Downloads && git clone https://github.com/yucefsourani/arfedora-plymouth-theme.git
 
-* copy theme folder to /usr/share/plymouth/themes
-  * sudo cp -r  ~/Downloads/arfedora-plymouth-theme /usr/share/plymouth/themes
+* move theme folder to /usr/share/plymouth/themes
+  * sudo mv  ~/Downloads/arfedora-plymouth-theme /usr/share/plymouth/themes/arfedora-plymouth-theme
 
 * set theme
   * sudo plymouth-set-default-theme arfedora-plymouth-theme -R
