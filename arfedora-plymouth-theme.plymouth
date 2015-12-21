@@ -4,6 +4,6 @@ Description=A Plymouth theme
 ModuleName=script
 
 [script]
-ImageDir=/usr/share/plymouth/arfedora-plymouth-theme
-ScriptFile=/usr/share/plymouth/arfedora-plymouth-theme/arfedora-plymouth-theme.script
+ImageDir=/usr/share/plymouth/themes/arfedora-plymouth-theme
+ScriptFile=/usr/share/plymouth/themes/arfedora-plymouth-theme/arfedora-plymouth-theme.script
 
