@@ -4,7 +4,7 @@ This is plymouth theme for Fedora Linux
 
 
 ##Installing
-tested only on Fedora 23
+tested only on Fedora 23 64bit
 
 * Install deps
   * sudo dnf install plymouth-theme-script git
