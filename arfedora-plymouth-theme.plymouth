@@ -1,8 +1,9 @@
 [Plymouth Theme]
-Name=Darwin OS X Plymouth
-Description=A Plymouth of OS X Yosemite
+Name=arfedora  Plymouth theme
+Description=A Plymouth theme
 ModuleName=script
 
 [script]
-ImageDir=/usr/share/plymouth/themes/darwin
-ScriptFile=/usr/share/plymouth/themes/darwin/darwin.script
+ImageDir=/home/youcef/arfedora-plymouth-theme/arfedora-plymouth-theme
+ScriptFile=/home/youcef/arfedora-plymouth-theme/arfedora-plymouth-theme/arfedora-plymouth-theme.script
+
