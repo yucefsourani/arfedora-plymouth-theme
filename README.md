@@ -1,4 +1,4 @@
-#arfedora-plymouth-theme
+#darwin
 This is plymouth theme for Fedora Linux
 
 
@@ -19,13 +19,16 @@ tested only on Fedora 23 64bit
   * cd ~/Downloads && git clone https://github.com/yucefsourani/arfedora-plymouth-theme.git
 
 * move theme folder to /usr/share/plymouth/themes
-  * sudo mv  ~/Downloads/arfedora-plymouth-theme/darwin /usr/share/plymouth/themes/arfedora-plymouth-theme
+  * sudo mv  ~/Downloads/arfedora-plymouth-theme/darwin /usr/share/plymouth/themes/darwin
 
 * set theme
   * sudo plymouth-set-default-theme darwin -R
 
 * rebuild initramfs
   * sudo dracut --force
+
+* remove arfedora-plymouth-theme folder
+  * sudo rm -r ~/Downloads/arfedora-plymouth-theme
 
 
 
@@ -35,9 +38,11 @@ darwin plymouth theme
 http://gnome-look.org/content/show.php/Darwin+Plymouth?content=170649
 
 
+
 ##arfedora blog
 
 http://arfedora.blogspot.com/
+
 
 
 ##LICENSE
