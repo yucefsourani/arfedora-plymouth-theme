@@ -9,16 +9,16 @@ tested only on Fedora 23
 * **Install deps
   * sudo dnf install plymouth-theme-script git
 
-* **clone repo
+* clone repo
   * cd ~/Downloads && git clone https://github.com/yucefsourani/arfedora-plymouth-theme.git
 
-* **copy theme folder to /usr/share/plymouth/themes
+* copy theme folder to /usr/share/plymouth/themes
   * sudo cp ~/Downloads/arfedora-plymouth-theme /usr/share/plymouth/themes
 
-* **set theme
+* set theme
   * sudo plymouth-set-default-theme arfedora-plymouth-theme -R
 
-* **rebuild initramfs
+* rebuild initramfs
   * sudo dracut --force
 
 
