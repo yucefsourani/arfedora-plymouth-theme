@@ -3,6 +3,12 @@ This is plymouth theme for Fedora Linux
 
 
 
+#Screenshot
+
+![Alt text](https://raw.githubusercontent.com/yucefsourani/arfedora-plymouth-theme/master/screenshot.png "Screenshot")
+
+
+
 ##Installing
 tested only on Fedora 23 64bit
 
@@ -20,12 +26,6 @@ tested only on Fedora 23 64bit
 
 * rebuild initramfs
   * sudo dracut --force
-
-
-
-#Screenshot
-
-![Alt text](https://raw.githubusercontent.com/yucefsourani/arfedora-plymouth-theme/master/screenshot.png "Title")
 
 
 
