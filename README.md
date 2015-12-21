@@ -6,7 +6,7 @@ This is plymouth theme for Fedora Linux
 ##Installing
 tested only on Fedora 23
 
-* **Install deps
+* Install deps
   * sudo dnf install plymouth-theme-script git
 
 * clone repo
