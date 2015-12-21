@@ -1,9 +1,0 @@
-[Plymouth Theme]
-Name=arfedora  Plymouth theme
-Description=A Plymouth theme
-ModuleName=script
-
-[script]
-ImageDir=/usr/share/plymouth/themes/arfedora-plymouth-theme
-ScriptFile=/usr/share/plymouth/themes/arfedora-plymouth-theme/arfedora-plymouth-theme.script
-

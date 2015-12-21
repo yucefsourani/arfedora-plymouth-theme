@@ -19,10 +19,10 @@ tested only on Fedora 23 64bit
   * cd ~/Downloads && git clone https://github.com/yucefsourani/arfedora-plymouth-theme.git
 
 * move theme folder to /usr/share/plymouth/themes
-  * sudo mv  ~/Downloads/arfedora-plymouth-theme /usr/share/plymouth/themes/arfedora-plymouth-theme
+  * sudo mv  ~/Downloads/arfedora-plymouth-theme/darwin /usr/share/plymouth/themes/arfedora-plymouth-theme
 
 * set theme
-  * sudo plymouth-set-default-theme arfedora-plymouth-theme -R
+  * sudo plymouth-set-default-theme darwin -R
 
 * rebuild initramfs
   * sudo dracut --force
