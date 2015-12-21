@@ -22,6 +22,13 @@ tested only on Fedora 23 64bit
   * sudo dracut --force
 
 
+
+#Screenshot
+
+![Alt text](relative/path/to/img.jpg?raw=true "Title")
+
+
+
 ##Based on
 
 darwin plymouth theme
