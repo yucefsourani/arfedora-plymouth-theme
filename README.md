@@ -25,7 +25,7 @@ tested only on Fedora 23 64bit
 
 #Screenshot
 
-![Alt text](relative/path/to/img.jpg?raw=true "Title")
+![Alt text](https://raw.githubusercontent.com/yucefsourani/arfedora-plymouth-theme/master/screenshot.png "Title")
 
 
 
