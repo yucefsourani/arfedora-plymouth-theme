@@ -13,7 +13,7 @@ This is plymouth theme for Fedora Linux
 tested only on Fedora 23 64bit
 
 * Install deps
-  * sudo dnf install plymouth-theme-script git
+  * ```Bash sudo dnf install plymouth-theme-script git```
 
 * clone repo
   * cd ~/Downloads && git clone https://github.com/yucefsourani/arfedora-plymouth-theme.git
