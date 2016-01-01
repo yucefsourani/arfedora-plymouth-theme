@@ -13,22 +13,22 @@ This is plymouth theme for Fedora Linux
 tested only on Fedora 23 64bit
 
 * Install deps
-  * ```Bash sudo dnf install plymouth-theme-script git```
+  * ```sudo dnf install plymouth-theme-script git```
 
 * clone repo
-  * cd ~/Downloads && git clone https://github.com/yucefsourani/arfedora-plymouth-theme.git
+  * ```cd ~/Downloads && git clone https://github.com/yucefsourani/arfedora-plymouth-theme.git```
 
 * move theme folder to /usr/share/plymouth/themes
-  * sudo mv  ~/Downloads/arfedora-plymouth-theme/darwin /usr/share/plymouth/themes/darwin
+  * ```sudo mv  ~/Downloads/arfedora-plymouth-theme/darwin /usr/share/plymouth/themes/darwin```
 
 * set theme
-  * sudo plymouth-set-default-theme darwin -R
+  * ```sudo plymouth-set-default-theme darwin -R```
 
 * rebuild initramfs
-  * sudo dracut --force
+  * ```sudo dracut --force```
 
 * remove arfedora-plymouth-theme folder
-  * sudo rm -r ~/Downloads/arfedora-plymouth-theme
+  * ```sudo rm -r ~/Downloads/arfedora-plymouth-theme```
 
 
 
